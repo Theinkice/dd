@@ -12,7 +12,7 @@ VNC端口为``` 1``` 或者``` 5901``` ,可自行尝试连接.(成功后VNC功�
 目前CentOS系统只支持任意版本重装为 CentOS 6.x 及以下版本.
 
 特别注意:OpenVZ构架不适用.
-## DD debian 10示例：
+## DD debian 11示例：
 ```
 wget -N --no-check-certificate https://raw.githubusercontent.com/theinkice/dd/main/InstallNET.sh && chmod +x InstallNET.sh && ./InstallNET.sh -d 11 -v 64 -p "自定义root密码" -port "自定义ssh端口"
 ```
